@@ -54,7 +54,7 @@ In this example, we set up a test network using Sepolia. Follow these steps to d
    - You can send transactions, check the latest block, get wallet balances, replay transactions, and more.  
 
 
-## Deploy the Contract a Local Machine
+## Deploy the Contract on a Local Machine
 Start a Local Anvil Node (for testing):  
 ```sh
 anvil
