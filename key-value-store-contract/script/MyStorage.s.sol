@@ -10,9 +10,9 @@ contract DeployMyStorage is Script {
     function setUp() public {}
 
     function run() public {
-        //Before Calling vm.startBroadcast(): The script runs in dry-run mode, meaning actions (like deployments or calls) are simulated and not sent to the blockchain.
-        //After Calling vm.startBroadcast(): Transactions are signed and sent to the blockchain. Any changes (contract deployment, state updates) are now persisted on the chain.
+        //before Calling vm.startBroadcast(): The script runs in dry-run mode, meaning actions (like deployments or calls) are simulated and not sent to the blockchain.
         vm.startBroadcast();
+        //after Calling vm.startBroadcast(): Transactions are signed and sent to the blockchain. Any changes (contract deployment, state updates) are now persisted on the chain.
 
         my_storage = new MyStorage();
         console.log("Deployed my_storage at:", address(my_storage));
