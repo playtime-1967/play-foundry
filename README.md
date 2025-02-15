@@ -40,6 +40,7 @@ In this example, we set up a test network using Sepolia. Follow these steps to d
 
 4. **Deploy the Contract**  
    - Deploy the contract to the Sepolia test network and connect it to your wallet.  
+   - Your wallet needs balance to deploy the contract, but fake deposits are possible for testing purposes!
    - Contract address: `0x8d709da1d20385518bf2BB691b239157bb502D7a`  
    - You can verify it on [Etherscan](https://etherscan.io/address/0x8d709da1d20385518bf2BB691b239157bb502D7a).  
 
